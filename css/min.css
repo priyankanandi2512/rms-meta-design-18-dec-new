@@ -1072,6 +1072,8 @@ input[type="range"]:focus::-ms-fill-upper {
   font-weight: bold;
   color: #005682;
   flex-grow: 1;
+  text-align: right;
+  margin: 0 10px 0 0;
 }
 img.step.active{
   border-radius: 50%;
@@ -1095,13 +1097,17 @@ img.step.active{
     flex-direction: row;
   }
   .verticalwiz li,
-  .verticalwiz a {
+  .verticalwiz a{
     flex-direction: column;
+    text-align: center;
+  }
+  .verticalwiz li .title{
     text-align: center;
   }
 
   .verticalwiz li:last-child .title {
-    margin: 10px 0 10px;
+    margin: 10px 0 17px;
+    
   }
   .tab-content-container {
     margin-left: 0;
@@ -1113,16 +1119,15 @@ img.step.active{
 .tab-pane .card{
   border-radius: 20px 0 0 0;
 }
-  .verticalwiz::before {
-    content: "";
-    height: 5px;
-    width: 80%;
-    position: absolute;
-    right: 54px;
-    top: 109px;
-    background: #000000;
-    z-index: -1;
-    transform: rotate(0deg);
+.verticalwiz li a::before {
+  content: "";
+  height: 5px;
+  width: 80%;
+  position: absolute;
+  right: 74px;
+  top: 103px;
+  z-index: -1;
+  transform: rotate(0deg);
   }
 }
 
@@ -1167,13 +1172,13 @@ img.step.active{
     padding: 10px;
     background-color: #fff;
 }
-  .verticalwiz::before {
-    height: 3px;
-    width: 74%;
-    right: 23px;
-    top: 58%;
-    bottom: 58px;
-    z-index: -1;
-    transform: rotate(0deg);
+.verticalwiz li a::before {
+  height: 3px;
+  width: 74%;
+  right: 42px;
+  top: 75%;
+  bottom: 58px;
+  z-index: -1;
+  transform: rotate(0deg);
   }
 }
