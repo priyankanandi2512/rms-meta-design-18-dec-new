@@ -1,8 +1,7 @@
-.wizard {
+/* .wizard {
     margin: 20px auto;
     background: #fff;
 }
-
     .wizard .nav-tabs {
         position: relative;
         margin: 40px auto;
@@ -98,8 +97,7 @@ span.round-tab:hover {
     border-radius: 100%;
     padding: 0;
 }
-
-    .wizard .nav-tabs > li a:hover {
+ .wizard .nav-tabs > li a:hover {
         background: transparent;
     }
 
@@ -137,4 +135,4 @@ span.round-tab:hover {
         position: absolute;
         left: 35%;
     }
-}
+} */
