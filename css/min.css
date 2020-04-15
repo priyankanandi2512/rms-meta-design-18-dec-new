@@ -186,7 +186,7 @@ main {
 }
 
 .mid-dashboard {
-  padding: 10px 30px;
+  padding: 15px 40px;
   background-color: #fff;
 }
 
@@ -681,6 +681,7 @@ footer.bg-dark {
 
 .rfp-divider {
   border-top: 3px solid rgba(0, 0, 0, 0.1);
+  margin: 0;
 }
 
 .connecting-line {
@@ -696,7 +697,7 @@ footer.bg-dark {
 }
 
 .rfp-wizard {
-  margin-top: 50px;
+    margin-top: 20px;
 }
 
 .rfp-wizard-inner {
@@ -708,6 +709,7 @@ footer.bg-dark {
   background: #f6f6f6;
   border: 2px solid #e8e8e8;
   border-radius: 25px;
+  padding: 40px;
 }
 
 /* .wizard-container { background-color: #f6f6f6; color:#FFF; margin:10px auto; border-radius:25px; margin-bottom:40px; border: 2px solid #F0F0F0;}
@@ -1091,14 +1093,14 @@ input[type="range"]:focus::-ms-fill-upper {
   padding: 10px;
 }
 .verticalwiz li a::before {
-  content: "";
-  height: 27px;
-  width: 5px;
-  position: absolute;
-  right: 32px;
-  background: #ececec;
-  top: -37%;
-  z-index: -1;
+    content: "";
+    height: 70px;
+    width: 5px;
+    position: absolute;
+    right: 32px;
+    background: #ececec;
+    top: -85%;
+    z-index: -1;
 }
 .verticalwiz li:first-child a::before {
   display: none;
@@ -1113,7 +1115,7 @@ input[type="range"]:focus::-ms-fill-upper {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  margin: 0 0 10px;
+  margin: 0 0 25px;
   text-decoration: none;
   position: relative;
 }
@@ -1218,10 +1220,6 @@ img.step.active{
   .verticalwiz li:last-child .title {
     margin: 10px 0 3px;
   }
-  .mid-dashboard {
-    padding: 10px;
-    background-color: #fff;
-}
 .verticalwiz li a::before {
   height: 3px;
   width: 74%;
