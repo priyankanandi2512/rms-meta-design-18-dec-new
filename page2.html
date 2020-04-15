@@ -138,7 +138,7 @@
                                                     <form action="">
                                                         <div class="inputWrapper">
                                                             <label class="inputMainLabel">
-                                                                Face Rating
+                                                                Fico Rating
                                                             </label>
                                                             <div class="dropdown">
                                                                 <button type="button" class="btn dropdown-toggle text-left"
@@ -175,49 +175,124 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <a href="#tab2" data-toggle="tab" class="btn btn-primary next-button" onclick="tabActive(1)">Next</a>
                                                     </form>
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- <br>
-                                        <h3><strong>Step 1 </strong> - Basic Information</h3>
-
-                                        <div class="form-actions">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <ul class="pager wizard no-margin">
-                                                        <li class="previous disabled">
-                                                            <a href="#" class="btn btn-lg btn-default"> Previous </a>
-                                                        </li>
-                                                        <li class="next">
-                                                            <a href="#" class="btn btn-lg txt-color-darken"> Next </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div> -->
                                     </div>
                                     <div class="tab-pane" id="tab2">
-                                        <br>
-                                        <h3><strong>Step 2</strong> - Billing Information</h3>
-
-                                        <div class="form-actions">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <ul class="pager wizard no-margin">
-                                                        <li class="previous">
-                                                            <a href="#" class="btn btn-lg btn-default"> Previous </a>
-                                                        </li>
-                                                        <li class="next disabled">
-                                                            <a href="#" class="btn btn-lg txt-color-darken"> Next </a>
-                                                        </li>
-                                                    </ul>
+                                        <div class="cardWrapper">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <p class="m-0">Funds Requirement</p>
+                                                </div>
+                                                <div class="cardBody">
+                                                    <form action="">
+                                                        <div class="inputWrapper">
+                                                            <label class="inputMainLabel">
+                                                                Purpose of funds
+                                                            </label>
+                                                            <div class="dropdown">
+                                                                <button type="button" class="btn dropdown-toggle text-left"
+                                                                    data-toggle="dropdown">Choose an option</button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#" selected disabled>choose an
+                                                                        option</a>
+                                                                    <a class="dropdown-item" href="#">Link 2</a>
+                                                                    <a class="dropdown-item" href="#">Link 3</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="inputWrapper radioButtonsWrapper">
+                                                            <label class="inputMainLabel" class="d-block radioMainLabel">Amount
+                                                                Requirment (5000 - 100000) </label>
+                                                            <div class="radioButtons w-100">
+                                                                <input type="range" id="vol" name="vol" min="5000" max="100000">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-actions">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <ul class="pager wizard no-margin">        
+                                                                       <li class="next disabled">
+                                                                            <a href="#tab3" data-toggle="tab" class="btn btn-primary next-button" onclick="tabActive(2)">Next</a>
+                                                                        </li>
+                                                                        <li class="previous">
+                                                                            <a href="#tab1" data-toggle="tab" class="btn btn-primary previous-button" onclick="tabActive(0)">Previous</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="tab-pane" id="tab3">
-                                        <br>
+                                        <div class="cardWrapper">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <p class="m-0">Lanlord Details</p>
+                                                </div>
+                                                <div class="cardBody">
+                                                    <form action="">
+                                                        <div class="inputWrapper radioButtonsWrapper">
+                                                            <label class="inputMainLabel" class="d-block radioMainLabel"> Is your
+                                                                Business is locaton leased</label>
+                                                            <div class="radioButtons">
+                                                                <input type="radio" id="yes" value="yes" class="">
+                                                                <label for="male">Yes</label>
+                                                                <input type="radio" id="no" value="no">
+                                                                <label for="female">No</label><br>
+                                                            </div>
+                                                        </div>
+                                                        <div class="inputWrapper inputTextWrapper">
+                                                            <div class="text-input-wrapper">
+                                                                <input type="text" name="" id="" placeholder="Lanlord Name" />
+                                                            </div>
+                                                            <div class="text-input-wrapper">
+                                                                <input type="text" name="" id="" placeholder="Lanlord phone" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="inputWrapper">
+                                                            <label class="d-block inputMainLabel"> Time Remaing on lease</label>
+                                                            <br>
+                                                            <div class="dropdown">
+                                                                <button type="button" class="btn dropdown-toggle text-left"
+                                                                    data-toggle="dropdown">Choose an option</button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li class="dropdown-item" selected disabled>choose an option
+                                                                    </li>
+                                                                    <li class="dropdown-item">1 month or less</li>
+                                                                    <li class="dropdown-item">3 month or less</li>
+                                                                    <li class="dropdown-item">6 month or less</li>
+                                                                    <li class="dropdown-item">1 year or less</li>
+                                                                    <li class="dropdown-item">2 year or less</li>
+                                                                    <li class="dropdown-item">1 year or less</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-actions">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <ul class="pager wizard no-margin">
+                                                                        <li class="next disabled">
+                                                                            <a href="#tab4" data-toggle="tab" class="btn btn-primary next-button" onclick="tabActive(3)">Next</a>               
+                                                                        </li>
+                                                                        <li class="previous">
+                                                                            <a href="#tab2" data-toggle="tab" class="btn btn-primary previous-button" onclick="tabActive(1)">Previous</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <br>
                                         <h3><strong>Step 3</strong> - Domain Setup</h3>
                                         <div class="form-actions">
                                             <div class="row">
@@ -232,10 +307,65 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="tab-pane" id="tab4">
-                                        <br>
+                                        <div class="cardWrapper">
+                                            <div class="card">
+                                                <!-- <div class="cardNumber">4</div> -->
+                                                <div class="card-header">
+                                                    <p class="m-0">Industry</p>
+                                                </div>
+                                                <div class="cardBody">
+                                                    <form action="">
+                                                        <div class="inputWrapper">
+                                                            <label class="inputMainLabel">
+                                                                Industry
+                                                            </label>
+                                                            <div class="dropdown">
+                                                                <button type="button" class="btn dropdown-toggle text-left"
+                                                                    data-toggle="dropdown">Choose an option</button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" selected disabled>choose an
+                                                                        option</a>
+                                                                    <a class="dropdown-item">Link 2</a>
+                                                                    <a class="dropdown-item">Link 3</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="inputWrapper">
+                                                            <label class="d-block inputMainLabel"> Business Category</label>
+                                                            <br>
+                                                            <div class="dropdown">
+                                                                <button type="button" class="btn dropdown-toggle text-left"
+                                                                    data-toggle="dropdown">Choose an option</button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" selected disabled>choose an
+                                                                        option</a>
+                                                                    <a class="dropdown-item">Link 2</a>
+                                                                    <a class="dropdown-item">Link 3</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-actions">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <ul class="pager wizard no-margin">                               
+                                                                        <li class="next disabled">
+                                                                            <a href="#" data-toggle="tab" class="btn btn-primary finish-button" onclick="">Finish</a>               
+                                                                        </li>
+                                                                        <li class="previous">
+                                                                            <a href="#tab3" data-toggle="tab" class="btn btn-primary previous-button" onclick="tabActive(2)">Previous</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <br>
                                         <h3><strong>Step 4</strong> - Save Form</h3>
                                         <br>
                                         <h1 class="text-center text-success"><strong><i class="fa fa-check fa-lg"></i> Complete</strong></h1>
@@ -255,7 +385,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                              <!-- </div> -->
@@ -268,19 +398,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
-         $(document).ready(function(){
-		  $('[data-toggle="tooltip"]').tooltip();
-		});
-		var panHeight = 240;
-		$(".i-more").click(function(e){
-			if($(this).children("i").hasClass("fa-angle-down")) {
-				$(this).parent().parent().parent().children(".panel-body").height("auto");
-				$(this).children("i").removeClass("fa-angle-down").addClass("fa-angle-up");
-			} else {
-				$(this).parent().parent().parent().children(".panel-body").height(panHeight);
-				$(this).children("i").removeClass("fa-angle-up").addClass("fa-angle-down");
-			}
-		});
-    </script>
+        $(document).ready(function(){
+         $('[data-toggle="tooltip"]').tooltip();
+       });
+       var panHeight = 240;
+       $(".i-more").click(function(e){
+           if($(this).children("i").hasClass("fa-angle-down")) {
+               $(this).parent().parent().parent().children(".panel-body").height("auto");
+               $(this).children("i").removeClass("fa-angle-down").addClass("fa-angle-up");
+           } else {
+               $(this).parent().parent().parent().children(".panel-body").height(panHeight);
+               $(this).children("i").removeClass("fa-angle-up").addClass("fa-angle-down");
+           }
+       });
+   </script>
 </body>
 </html>

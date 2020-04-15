@@ -724,75 +724,8 @@ footer.bg-dark {
   margin-left: 40px;
 }
 
-/* page 2 */
+/* page 1 */
 
-.card {
-    border: none;
-    border: none;
-    border-radius: 8%;
-    box-shadow: 0 1px 4px 0px rgba(0,0,0,0.2);
-} 
-
-.card-header {
-    /* background: #0088ce; */
-    background-image: url("../images/tile-header.png");
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px 20px 0 0;
-    text-align: center;
-    color: #fff;
-    font-family: "Quicksand";
-    font-weight: 500;
-    font-size: 24px;
-  }
-
-  .cardBody {
-    background: #ffffff;
-    border: 1px solid rgba(0,0,0,.125);
-    height: 100%;
-    padding: 40px;
-    border-radius: 0 0 20px 20px;
-  }
-
-  .next-button {
-    text-align: center;
-    color: #fff;
-    background-color: #0088ce !important;
-    border-color: #0088ce !important;
-    float: right;
-    padding: 5px 50px;
-    font-weight: bold;
-    margin-right: 20px;
-  }
-
-  .previous-button {
-    text-align: center;
-    color: #0088ce !important;
-    font-weight: bold;
-    background-color: white !important;
-    border: 1px solid #0088ce !important;
-    float: right;
-    padding: 5px 36px;
-    margin-right: 20px;
-  }
-
-  .finish-button {
-    text-align: center;
-    color: #fff;
-    background-color: #0088ce !important;
-    border-color: #0088ce !important;
-    float: right;
-    padding: 5px 47px;
-    font-weight: bold;
-    margin-right: 20px;
-  }
-
-  .wizard {
-    list-style: none;
- }
-
-/* end */
 .topBar {
   border-bottom: 1px solid #cacacc;
   padding: 10px 0 10px 32px;
@@ -841,6 +774,25 @@ footer.bg-dark {
   width: 50pt;
   border-top-left-radius: 50pt;
   border-top-right-radius: 50pt;
+}
+
+.card-header {
+  background: #0088ce;
+  /* background-image: url("../images/tile-header.png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.cardBody {
+  background: #ffffff;
+  height: 100%;
+  padding: 40px;
 }
 
 .inputWrapper {
